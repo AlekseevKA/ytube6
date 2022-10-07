@@ -45,7 +45,7 @@ public class Adaptery extends RecyclerView.Adapter<Adaptery.MyViewHolder> {
 // We need to add a link before the image string
         //      https://image.tmdb.org/t/p/w500/iQFcwSGbZXMkeyKrxbPnwnRo5fl.jpg
         Glide.with(mContext)
-                .load("https://image.tmdb.org/t/p/w500" + mData.get(position).getImg())
+                .load("https://image.tmdb.org/t/p/w200" + mData.get(position).getImg())
                 .into(holder.img);
 
 
